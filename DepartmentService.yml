@@ -1,1 +1,11 @@
 welcome: hello my name vinh!
+eureka:
+  client:
+    fetch-registry:
+      value: true
+    register-with-eureka:
+      value: true
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+    instance:
+      hostname: localhost
